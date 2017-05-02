@@ -24,19 +24,18 @@ read Answer1
 if [[ "$Answer1" == 'Y' ]]; then
   # cut position no 2
   echo "Cut position number two"
-  echo "Enter cut start position number two (omit if a second cut is not required, followed by [ENTER]:"
+  echo "Enter cut start position number two, followed by [ENTER]:"
   read PosCut2Start
-  echo "Enter cut  end position number two (omit if a second cut is not required, followed by [ENTER]:"
+  echo "Enter cut  end position number two, followed by [ENTER]:"
   read PosCut2End
   echo "Add a third cut position? (Y or N followed by [ENTER])"
   read Answer2
   if [[ "$Answer2" == 'Y' ]]; then
     # cut position no 3
     echo "Cut position number three"
-    echo "Enter cut start position number three (omit if a third cut is not required, followed by [ENTER]:"
+    echo "Enter cut start position number three, followed by [ENTER]:"
     read PosCut3Start
-    echo "Enter cut end position number three (omit if a third cut is not required, fo
-    llowed by [ENTER]:"
+    echo "Enter cut end position number three, followed by [ENTER]:"
     read PosCut3End
   fi
 fi
