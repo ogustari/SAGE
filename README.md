@@ -1,5 +1,5 @@
 # SAGE
-All script using during my SAGE cours 2017
+All script used during my SAGE cours 2017
 
 SequenceCut.sh cut the sequence of a fasta file between two given position (possible to insert until three different zone of cut).
 
